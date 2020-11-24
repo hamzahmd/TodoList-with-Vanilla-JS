@@ -53,6 +53,7 @@ form button :hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5 ease;
 }
 .todo li {
   flex: 1;
@@ -73,7 +74,7 @@ form button :hover {
   padding: 0rem 0.5rem;
 }
 .fa-trash,
-fa-check {
+.fa-check {
   pointer-events: none;
 }
 .completed {
